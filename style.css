@@ -98,3 +98,30 @@ border-radius: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    background:blue;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* instagram */
+  .fa-instagram{
+      background: rgb(240, 37, 37);
+      color: white;
+  }
