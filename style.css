@@ -47,8 +47,6 @@ p{
 }
 .port-box{
     height: 600px;
-    border: 1px solid red; 
-    padding-bottom: 50px; 
 }
 .port-box img{
     width: 100%;
@@ -75,23 +73,38 @@ border-radius: 15px;
 }
 #box-3{
     position: absolute;
-width: 370px;
-height: 374px;
-left: 935px;
-top: 1200px;
-background: white;
-box-shadow: 5px 5px 20px black;
-border-radius: 15px;
+    width: 370px;
+    height: 374px;
+    left: 935px;
+    top: 1200px;
+    background: white;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 15px;
+}
+.blog{
+    font-family: 'Roboto', sans-serif;
+    height: 600px;
+}
+h2{
+    font-size: 24px;
+}
+.blog-half{
+    display: inline;
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding-left: 3%;
+}
+.blog-half img{
+    width: 100%;
 }
 .banner{
-    position: absolute;
-width: 906px;
-height: 225px;
-left: 267px;
-top: 1700px;
-}
-.banner img{
-    width: 100%;
+    background-image: url("images/banner.png");
+    width: 70%;
+    float:left;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
 }
 .footer{
     text-align: center;
