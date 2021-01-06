@@ -5,9 +5,14 @@ body{
 h1{
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    text-align: justify;
+    color: dimgray;
 }
 .frame{
-    height: 350px;   
+    height: 500px;   
 }
 .name{
     color: crimson;
@@ -31,4 +36,51 @@ h1{
     border-radius: 8px;
     color: white;
     font-weight: bold;
+}
+#title{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;  
+}
+.port-box{
+    height: 600px;
+    border: 1px solid red; 
+    padding-bottom: 50px; 
+}
+.port-box img{
+    width: 100%;
+}
+#box-1{
+    position: absolute;
+width: 370px;
+height: 374px;
+left: 135px;
+top: 1200px;
+background: white;
+box-shadow: 5px 5px 20px black;
+border-radius: 15px;
+}
+#box-2{
+    position: absolute;
+width: 370px;
+height: 374px;
+left: 535px;
+top: 1200px;
+background: white;
+box-shadow: 5px 5px 20px black;
+border-radius: 15px;
+}
+#box-3{
+    position: absolute;
+width: 370px;
+height: 374px;
+left: 935px;
+top: 1200px;
+background: white;
+box-shadow: 5px 5px 20px black;
+border-radius: 15px;
 }
